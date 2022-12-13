@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<form>
+    <p>Имя <input name="userName" placeholder="Введите имя" size="18" type="text"/></p>
+    <p>Фамилия <input maxlength="11" name="userPhone" placeholder="Введите фамилию" size="18" type="text"/></p>
+    <p>
+        <input name="gender" type="radio">Мужчина</input>
+        <input name="gender" type="radio">Женщина</input>
+    </p>
+    <p>О себе:
+    <p><input checked type="checkbox">Меньше 18
+    <p><input checked type="checkbox">От 18 до 35
+    <p><input checked type="checkbox">Больше 35
+    <p><input checked type="checkbox">Женат/-а
+    <p><input checked type="checkbox">Есть кошка
+    <p>
+        <button type="submit">Отправить</button>
+</form>
 </body>
 </html>
